@@ -1,0 +1,71 @@
+.anchor-pane {
+    -fx-background-color: #ffffff;
+}
+
+.v-box {
+    -fx-spacing: 10;
+    -fx-alignment: center;
+    -fx-background-color: #ffffff;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2a2a2a;
+    -fx-font-family: "Montserrat";
+}
+
+.text-field, .password-field {
+    -fx-pref-width: 250px;
+    -fx-padding: 5px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #ebebeb;
+}
+
+#emailLabel, #passwordLabel #retypePasswordLabel {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2a2a2a;
+    -fx-font-family: "Montserrat"
+}
+
+.button {
+    -fx-background-color: #004e98;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.button:hover {
+    -fx-background-color: #004e98;
+}
+
+#signUpButton {
+    -fx-background-color: #3a6ea5;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+#signUpButton:hover {
+    -fx-background-color: #004e98;
+}
+
+#backButton {
+    -fx-background-color: #3a6ea5;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+#backButton:hover {
+    -fx-background-color: #004e98;
+    -fx-text-fill: white;
+}

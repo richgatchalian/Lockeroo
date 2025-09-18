@@ -1,0 +1,139 @@
+.anchor-pane {
+    -fx-background-color: #ffffff;
+}
+
+.v-box {
+    -fx-spacing: 20;
+    -fx-alignment: center;
+    -fx-background-color: #ffffff;
+}
+
+.h-box {
+    -fx-spacing: 20;
+    -fx-alignment: center;
+}
+
+.text-field {
+    -fx-pref-width: 250px;
+    -fx-padding: 5px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #ebebeb;
+}
+
+.button {
+    -fx-background-color: #004e98;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.button:hover {
+    -fx-background-color: #3a6ea5;
+}
+
+#allPasswordButton {
+    -fx-background-color: #88d18a;
+    -fx-text-fill: #2a2a2a;
+    -fx-font-size: 14px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+}
+
+#socialPasswordButton {
+    -fx-background-color: #AEC5EB;
+    -fx-text-fill: #2a2a2a;
+    -fx-font-size: 14px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+}
+
+#wifiPasswordButton {
+    -fx-background-color: #F0B7B3;
+    -fx-text-fill: #2a2a2a;
+    -fx-font-size: 14px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+}
+
+#othersPasswordButton {
+    -fx-background-color: #CCDDB7;
+    -fx-text-fill: #2a2a2a;
+    -fx-font-size: 14px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+}
+
+#allPasswordButton:hover {
+    -fx-background-color: #6CC66F;
+}
+
+#socialPasswordButton:hover {
+    -fx-background-color: #8DAEE2;
+}
+
+#wifiPasswordButton:hover {
+    -fx-background-color: #EB9E99;
+}
+
+#othersPasswordButton:hover {
+    -fx-background-color: #BBD19E;
+}
+
+#addPasswordButton {
+    -fx-background-color: #3a6ea5;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+#addPasswordButton:hover {
+    -fx-background-color: #004e98;
+}
+
+#passwordsManagerLabel {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2a2a2a;
+    -fx-font-family: "Montserrat";
+}
+
+#searchPasswordLabel {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2a2a2a;
+    -fx-font-family: "Montserrat";
+}
+
+#categoryLabel {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2a2a2a;
+    -fx-font-family: "Montserrat";
+}
+
+#recentLabel {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2a2a2a;
+    -fx-font-family: "Montserrat";
+}
+
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d9d9d9;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}

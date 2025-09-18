@@ -1,0 +1,61 @@
+.anchor-pane {
+    -fx-background-color: #ffffff;
+}
+
+.v-box {
+    -fx-spacing: 15;
+    -fx-alignment: center;
+    -fx-background-color: #ffffff
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2a2a2a;
+    -fx-font-family: "Montserrat"
+}
+
+.text-field, .password-field {
+    -fx-pref-width: 250px;
+    -fx-padding: 5px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #ebebeb;
+}
+
+.button {
+    -fx-background-color: #004e98;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+#emailLabel, #passwordLabel {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2a2a2a;
+    -fx-font-family: "Montserrat"
+}
+
+.button:hover {
+    -fx-background-color: #004e98;
+}
+
+#logInButton {
+    -fx-background-color: #3a6ea5;
+}
+
+#logInButton:hover {
+    -fx-background-color: #004e98;
+}
+
+#signUpAccButton {
+    -fx-background-color: #3a6ea5;
+}
+
+#signUpAccButton:hover {
+    -fx-background-color: #004e98;
+}
